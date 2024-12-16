@@ -1,4 +1,4 @@
-import { Button } from '@/components/ui/button';
+import { RequestDemo } from '@/components/request-demo';
 import { cn } from '@/lib/utils';
 import Image from 'next/image';
 
@@ -9,7 +9,7 @@ function Nav() {
         <div className="border border-secondary bg-background rounded-2xl">
           <ul className="flex items-center p-2 px-4 justify-between">
             <li className="font-heading font-bold cursor-default">Entropi</li>
-            <Button>Request Demo</Button>
+            <RequestDemo label="Request Demo" />
           </ul>
         </div>
       </div>
@@ -27,7 +27,7 @@ function Hero() {
         Unlock the power of hyper-personalized outbound to transform your sales
         and drive meaningful connections.
       </h2>
-      <Button className="max-w-28 h-10">Get Started</Button>
+      <RequestDemo className="max-w-28 h-10" label="Get Started" />
     </section>
   );
 }
@@ -186,7 +186,7 @@ function CTA() {
           Outreach Smarter.
           <br /> Close Faster.
         </h3>
-        <Button className="max-w-28 h-10">Get Started</Button>
+        <RequestDemo className="max-w-28 h-10" label="Get Started" />
       </div>
     </section>
   );

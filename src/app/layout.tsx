@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Montserrat, Open_Sans } from 'next/font/google';
 import './globals.css';
+import { Tally } from '@/components/tally';
 
 const montserratHeading = Montserrat({
   variable: '--font-heading',
@@ -33,6 +34,7 @@ export default function RootLayout({
       className={`${montserratHeading.variable} ${openSansBody.variable} antialiased`}
     >
       <body>{children}</body>
+      <Tally />
     </html>
   );
 }
