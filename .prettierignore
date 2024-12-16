@@ -1,0 +1,4 @@
+**/generated/**
+**/.next/**
+pnpm-lock.yaml
+**/.vercel/**
