@@ -142,7 +142,7 @@ function Introduction() {
               i % 2 !== 0 ? 'md:flex-row-reverse' : 'md:flex-row',
             )}
           >
-            <div className="flex flex-col my-auto gap-10 justify-center md:w-1/2">
+            <div className="flex flex-col my-auto gap-4 md:gap-10 justify-center md:w-1/2">
               <div
                 className={cn(
                   'flex gap-4',
@@ -151,10 +151,10 @@ function Introduction() {
                     : 'flex-col md:items-start items-center',
                 )}
               >
-                <div className="bg-text text-background text-6xl font-heading font-bold p-12 rounded-2xl tracking-tight">
+                <div className="bg-text text-background text-4xl md:text-6xl font-heading font-bold p-8 md:p-12 rounded-2xl tracking-tight">
                   {formatNumberWithLeadingZero(i + 1)}
                 </div>
-                <h2 className="md:text-left text-center font-heading font-bold tracking-tight text-4xl md:max-w-72">
+                <h2 className="md:text-left text-center font-heading font-bold tracking-tight text-2xl md:text-4xl md:max-w-72">
                   {step.title}
                 </h2>
               </div>
