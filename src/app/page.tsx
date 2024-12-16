@@ -52,7 +52,7 @@ const STRATEGIES = [
 function ModernTeams() {
   return (
     <section className="flex relative">
-      <div className="flex mx-4 md:mx-auto flex-col gap-2 items-start lg:gap-4 lg:my-72 my-48 max-w-screen-lg w-full lg:w-[1024px]">
+      <div className="flex mx-4 md:mx-auto flex-col gap-2 items-center sm:items-start lg:gap-4 lg:my-72 my-48 max-w-screen-lg w-full lg:w-[1024px]">
         <h1 className="font-heading text-4xl md:text-6xl text-balance tracking-tighter font-bold sm:text-left text-center">
           Built for modern <br /> B2B Selling
         </h1>
